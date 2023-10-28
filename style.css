@@ -9,6 +9,10 @@
 /* 1 rem = 16px */
 /* 40px = 2,5rem */
 
+:root{
+    --gray-800: #1E293B;
+}
+
 header{
     background-image: url(./imagens/bg-mobal.png);
     background-size: cover;
@@ -17,4 +21,10 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    margin-bottom: 3.7rem;
+}
+
+main{
+    padding-inline: 1.5rem ;
 }
